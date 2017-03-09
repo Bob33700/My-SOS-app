@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="send_title">Préparer et Envoyer</string>
+    <string name="infoTitle">Info</string>
+    <string name="preference_file_key">preferences</string>
+    <string name="TAG">[SOS]</string>
+    <string name="defaultMessageLabel">Message :</string>
+    <string name="recipients">Destinataires (%1$s)</string>
+    <string name="preview">aperçu</string>
+    <string name="defaultMessageText">J\'ai besoin d\'aide !!!</string>
+    <string name="positionMessageText">\n\nposition:</string>
+    <string name="optional">Facultatif :</string>
+
+    <string name="tipLabel">Conseil:</string>
+    <string name="tipText">Demandez à vos destinataires d\'installer \'SOS\'</string>
+
+    <string name="phone">Téléphone</string>
+    <string name="last_name">Nom</string>
+    <string name="message">Message personnalisé</string>
+    <string name="position">Position</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="valid">Valider</string>
+    <string name="modify">Modifier</string>
+    <string name="quit">Quitter</string>
+    <string name="hide">Masquer</string>
+
+    <string name="swipe_to_send">Glisser vers la droite\npour envoyer le message d\'alerte</string>
+    <string name="no_recipient">Pas de destinataire !</string>
+    <string name="SMSsentOK">SMS envoyé !</string>
+    <string name="SMSsentKO">Attention ! \nLe SMS a été envoyé sans géolocalisation!</string>
+    <string name="SMS_CoarseLocation">\n\nRem: la position est approximative…"</string>
+    <string name="SMS_LocationToImprove">\nsi cela est possible, un second message précisera la position.</string>
+    <string name="SMS_LocationImproved">\nLa position a pu être précisée: %1$s"</string>
+    <string name="SMS_Signature">\n(message généré par l\'application mobile \'SOS\')</string>
+    <string name="widget_name">SOS</string>
+    <string name="gps_dialog">Activez le service de localisation !!!</string>
+    <string name="gps_wait">Attente d\'une position valide…</string>
+    <string name="gps_accuracy">La précision de la position n\'a pas pu être améliorée (%1$sm)</string>
+    <string name="approximative">approximative</string>
+
+    <string name="permissionsTitle">Autorisations :</string>
+    <string name="permissions">Pour fonctionner \'SOS\' requiert les autorisations suivantes :</string>
+    <string name="mandatory">Obligatoire :</string>
+    <string name="not_mandatory">Recommandées :</string>
+    <string name="permission_SMS">Envoyer des SMS.</string>
+    <string name="permission_SMS_info">sans cette autorisation, <b>SOS</b> ne peut pas fonctionner.</string>
+    <string name="permission_GPS">Accéder à votre position GPS</string>
+    <string name="permission_GPS_info">pour envoyer votre position GPS dans les SMS de demande d\'assistance.</string>
+    <string name="permission_CTX">Accéder à vos contacts</string>
+    <string name="permission_CTX_info">pour sélectionner les destinataires de SMS parmi vos contacts.
+        \nSans cette autorisation, vous devrez saisir manuellement les numéros de téléphone des destinataires de SMS.</string>
+    <string name="permission_PHN">Passer des appels</string>
+    <string name="permission_PHN_info">pour rappeler immédiatement l\'émetteur d\'un SOS.</string>
+    <string name="SMSpermissionRefused">L\'autorisation \'SMS\' n\'a pas été accordée… \'SOS\' ne peut pas fonctionner.</string>
+    <string name="permissionNota">Nota : aucune information personnelle ne sera transmise par l\'application</string>
+    <string name="permissionButton">Gérer les autorisations</string>
+    <string name="permissionNotice">(sur l\'écran suivant, cliquez sur  \'autorisations\')</string>
+
+    <string name="warningTitle">Attention</string>
+
+    <string name="sent_at">Réponse(s) au SMS envoyé%1$s à</string>
+    <string name="answer_no">Désolé</string>
+    <string name="answer_yes">J\'arrive</string>
+    <string name="answer_got">Vu</string>
+    <string name="answer_wait">…attente…</string>
+    <string name="answer_unavailable">Indisponible</string>
+    <string name="stop_sos">Interrompre le SOS</string>
+    <string name="end_of_list">Pas d\'autre destinataire</string>
+
+    <string name="infoTitle0">Qu\'est-ce que \"SOS\"?</string>
+    <string name="infoText00">\"SOS\" est un bouton d\'appel d\'urgence :</string>
+    <string name="infoText01"><b>en 2 clics</b>, prévenez des personnes de confiance que vous avez besoin d\'aide.</string>
+    <string name="infoTitle1">Installation</string>
+    <string name="infoText10">ajoutez des destinataires : vous pouvez les choisir dans votre carnet d\'adresses ou saisir leur numéro directement dans \'SOS\'</string>
+    <string name="infoText11">ajoutez le \'widget SOS\' sur l\'écran d\'accueil de votre téléphone</string>
+    <string name="infoTitle15">Personnalisation</string>
+    <string name="infoText16">Personnalisez le texte des SMS (pour tous ou individuellement)</string>
+    <string name="infoText17">Décider de transmettre, ou non, votre géolocalisation (choix par destinataire)</string>
+    <string name="infoText18">Gérez les autorisation accordées à \'SOS\'</string>
+    <string name="infoTitle2">Si vos destinataires installent \'SOS\'</string>
+    <string name="infoText20">le SMS leur sera présenté ainsi:</string>
+    <string name="infoText201">sonnerie forte même en mode silencieux</string>
+    <string name="infoText202">rappel immédiat</string>
+    <string name="infoText203">itinéraire vers votre position</string>
+    <string name="infoText204">2 boutons pour indiquer leur action</string>
+    <string name="infoText21">vous pourrez être informé de leurs réponses :</string>
+    <string name="infoText211">leur réaction :\n\"vu\", \"désolé…\" ou \"j\'arrive\"</string>
+    <string name="infoText22">ils pourront se déclarer \"indisponible\"</string>
+    <string name="infoText221">bouton de gestion des disponibilités\"</string>
+    <string name="infoText222">nota: si un destinataire est indisponible, l\'application passe au destinataire suivant sans attendre"</string>
+    <string name="infoTitle3">Envoyer un SOS</string>
+    <string name="infoText31">pour envoyer un SOS : utilisez le <b>widget</b> OU le <b>bouton \'SOS\'</b> en bas de l\'écran d\'accueil</string>
+    <string name="infoText32">l\'application démarre alors une séquence automatique :</string>
+    <string name="infoText35">envoi d\'1 SMS au 1er destinataire…\naprès 1 min. destinataire suivant…\netc.</string>
+    <string name="infoText36">STOP si un destinataire répond \"j\'arrive\"</string>
+    <string name="infoText37">PAUSE si un destinataire vous rappelle</string>
+    <string name="infoText38">à tout instant vous pouvez interrompre la séquence</string>
+
+    <string name="settings_title">Personnalisation</string>
+    <string name="settings_00">Message</string>
+    <string name="settings_02">personnalisez le message</string>
+    <string name="settings_10">Volume sonnerie</string>
+    <string name="settings_11">La sonnerie de l\'application \'SOS\' est <b>FORTE</b> quel que soit le réglage de votre téléphone : il s\'agit de ne pas manquer un appel au secours.</string>
+    <string name="settings_12">Elle n\'est volontairement pas réglable.</string>
+    <string name="settings_13">Si vous ne pouvez vraiment pas être dérangé : déclarez-vous \'indisponible\'.</string>
+    <string name="settings_20">Autorisations</string>
+
+    <string name="howto_widget_title1">Comment installer un widget?</string>
+    <string name="howto_widget_subtitle">(les dispositions d\'écran peuvent changer selon votre version d\'android, mais le principe reste le même)</string>
+    <string name="howto_widget_01">Faire un appui long sur une zone vide de l\'écran d\'accueil → nouvel écran</string>
+    <string name="howto_widget_02">Cliquer sur \'Widgets\' → liste des widgets disponibles</string>
+    <string name="howto_widget_03">Rechercher le widget SOS \n(en principe ils sont en ordre alphabétique)</string>
+    <string name="howto_widget_04">Appuyer sur le widget SOS et le glisser sur l\'écran d\'accueil</string>
+    <string name="howto_widget_05">Une fois installé, le widget est redimensionnable</string>
+    <string name="howto_widget_title2">Redimensionner un widget</string>
+    <string name="howto_widget_11">Faire un appui long sur le widget puis relacher\n→ il apparaît entouré d\'un cadre</string>
+    <string name="howto_widget_12">Tirer les coins du cadre pour obtenir la taille désirée</string>
+    <string name="howto_widget_13">Pour terminer : toucher une zone vide de l\'écran</string>
+
+    <string name="new_unavailable_period_title">Indisponible pour recevoir des SOS</string>
+    <string name="unavailable">Indisponible</string>
+    <string name="during">pendant</string>
+    <string name="until">jusqu\'à</string>
+    <string name="absent_during">indisponible pendant</string>
+    <string name="absent_until0">jusqu\'au</string>
+    <string name="absent_until1">jusqu\'à nouvel ordre</string>
+    <string name="at">à</string>
+    <string name="current_unavailable_period_title">Indisponibilité en cours</string>
+
+</resources>

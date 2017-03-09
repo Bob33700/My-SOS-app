@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="send_title">Prepare and Send</string>
+    <string name="infoTitle">Info</string>
+    <string name="preference_file_key">preferences</string>
+    <string name="TAG">[SOS]</string>
+    <string name="defaultMessageLabel">Message :</string>
+    <string name="recipients">Recipients (%1$s)</string>
+    <string name="preview">preview</string>
+    <string name="defaultMessageText">I need HELP !!!</string>
+    <string name="positionMessageText">\n\nposition:</string>
+    <string name="optional">Optional :</string>
+
+    <string name="tipLabel">Tip:</string>
+    <string name="tipText">Ask your recipients to install \'SOS\'</string>
+
+    <string name="phone">Phone</string>
+    <string name="last_name">Name</string>
+    <string name="message">Personalized message</string>
+    <string name="position">Position</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="valid">Valid</string>
+    <string name="modify">Modify</string>
+    <string name="quit">Quit</string>
+    <string name="hide">Hide</string>
+
+    <string name="swipe_to_send">Swipe to right\nto send SOS</string>
+    <string name="no_recipient">No recipient !</string>
+    <string name="SMSsentOK">SMS sent !</string>
+    <string name="SMSsentKO">Warning ! \nSMS sent without location!</string>
+    <string name="SMS_CoarseLocation">\n\nRem: location is approximative…"</string>
+    <string name="SMS_LocationToImprove">\nif possible, a second message will refine position.</string>
+    <string name="SMS_LocationImproved">\nPosition has been refined: %1$s"</string>
+    <string name="SMS_Signature">\n(message from \'SOS\' mobile application)</string>
+    <string name="widget_name">SOS</string>
+    <string name="gps_dialog">Turn location service ON !!!</string>
+    <string name="gps_wait">Waiting a valid location…</string>
+    <string name="gps_accuracy">Location precision can\'t be refined (%1$sm)</string>
+    <string name="approximative">approximative</string>
+
+    <string name="permissionsTitle">Permissions :</string>
+    <string name="permissions">To operate \'SOS\' request following permissions :</string>
+    <string name="mandatory">Mandatory :</string>
+    <string name="not_mandatory">Recommanded :</string>
+    <string name="permission_SMS">Send SMS.</string>
+    <string name="permission_SMS_info">without this permission, <b>SOS</b> can\'t operate.</string>
+    <string name="permission_GPS">Access to GPS location informations</string>
+    <string name="permission_GPS_info">to send your GPS location in SOS.</string>
+    <string name="permission_CTX">Access to your contacts</string>
+    <string name="permission_CTX_info">to select SMS recipients from your contacts.
+        \nWithout this permission, you must manually enter the SMS recipient phone number.</string>
+    <string name="permission_PHN">Make calls</string>
+    <string name="permission_PHN_info">to immediately recall the issuer of a SOS.</string>
+    <string name="SMSpermissionRefused">Permission \'SMS\' has not been granted … \'SOS\' will not work.</string>
+    <string name="permissionNota">Note: no personal information will be transmitted by the application</string>
+    <string name="permissionButton">Manage permissions</string>
+    <string name="permissionNotice">(On the next screen, click \'Permissions\')</string>
+
+    <string name="warningTitle">Warning</string>
+
+    <string name="sent_at">Answers(s) to SMS sent%1$s at</string>
+    <string name="answer_no">Ouch! I can\'t help you</string>
+    <string name="answer_yes">Coming</string>
+    <string name="answer_got">Seen</string>
+    <string name="answer_wait">…waiting…</string>
+    <string name="answer_unavailable">Unavailable</string>
+    <string name="stop_sos">Stop SOS</string>
+    <string name="end_of_list">No more recipient</string>
+
+    <string name="infoTitle0">What is \"SOS\"?</string>
+    <string name="infoText00">\"SOS\" is an emergency call button :</string>
+    <string name="infoText01"><b>within 2 clics</b>, tell people you trust you need help.</string>
+    <string name="infoTitle1">Installation</string>
+    <string name="infoText10">add recipients : you can choose them from your address book or enter their number directly in \'SOS\'</string>
+    <string name="infoText11">add the SOS widget on the home screen of your phone</string>
+    <string name="infoTitle15">Customization</string>
+    <string name="infoText16">Customize the SMS text (for all or individually)</string>
+    <string name="infoText17">Decide to send or not your geolocation (choice by recipient )</string>
+    <string name="infoText18">Manage permissions granted to \'SOS\'</string>
+    <string name="infoTitle2">If your recipients installSi vos destinataires installent \'SOS\'</string>
+    <string name="infoText20">SMS will be presented to them:</string>
+    <string name="infoText201">loud ring even in silent mode</string>
+    <string name="infoText202">immediate recall</string>
+    <string name="infoText203">route to your position</string>
+    <string name="infoText204">2 buttons to indicate their action</string>
+    <string name="infoText21">you will be informed of their responses :</string>
+    <string name="infoText211">their reaction :\n\"seen\", \"sorry…\" or \"coming\"</string>
+    <string name="infoText22">they will declare themselves  \"unavailable\"</string>
+    <string name="infoText221">availability management button</string>
+    <string name="infoText222">note: if a recipient is unavailable, the application proceeds to the next destination without waiting</string>
+    <string name="infoTitle3">Send an SOS</string>
+    <string name="infoText31">to send an SOS : Use the widget OR SOS button at the bottom of the home screen</string>
+    <string name="infoText32">the application will start an automatic sequence:</string>
+    <string name="infoText35">Sending an SMS to 1st recipient…\nafter 1 min. next recipient…\netc.</string>
+    <string name="infoText36">STOP if a recipient replies \"coming\"</string>
+    <string name="infoText37">PAUSE if a recipient calls you back</string>
+    <string name="infoText38">you can interrupt the sequence at any time</string>
+
+    <string name="settings_title">Customization</string>
+    <string name="settings_00">Message</string>
+    <string name="settings_02">customize message</string>
+    <string name="settings_10">Volume sonnerie</string>
+    <string name="settings_11">The ring volume of \'SOS\' is <b>LOUD</b> regardless of the setting of your phone : it is not to miss a call for help .</string>
+    <string name="settings_12">It is deliberately not adjustable.</string>
+    <string name="settings_13">If you really can not be bothered : expressing \'unavailable \'.</string>
+    <string name="settings_20">Permissions</string>
+
+    <string name="howto_widget_title1">How to install a widget?</string>
+    <string name="howto_widget_subtitle">(Screen layouts may vary depending on your android version, but the principle remains the same)</string>
+    <string name="howto_widget_01">Do a long press on an empty area of the new screen → new screen</string>
+    <string name="howto_widget_02">Click on \'Widgets\' → list of available widgets</string>
+    <string name="howto_widget_03">Search the SOS widget  \n(usually they are in alphabetical order)</string>
+    <string name="howto_widget_04">Press the SOS widget and slide it on the home screen</string>
+    <string name="howto_widget_05">Once installed, the widget is resizable</string>
+    <string name="howto_widget_title2">Resize widget</string>
+    <string name="howto_widget_11">Do a long press on the widget then release \n→ ​​it appears surrounded by a frame</string>
+    <string name="howto_widget_12">Pull the corners of the frame to the desired size</string>
+    <string name="howto_widget_13">Finally : touch an empty area of the screen</string>
+
+    <string name="new_unavailable_period_title">Unavailable to receive SOS</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="during">while</string>
+    <string name="until">until</string>
+    <string name="absent_during">unavailable for</string>
+    <string name="absent_until0">until</string>
+    <string name="absent_until1">until further notice</string>
+    <string name="at">at</string>
+    <string name="current_unavailable_period_title">current unavailability</string>
+
+</resources>

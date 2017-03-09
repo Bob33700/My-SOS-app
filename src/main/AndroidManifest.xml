@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.bluegecko.sos">
+
+    <!-- create shortcut and widget -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission
+        android:name="android.permission.BIND_APPWIDGET"
+        tools:ignore="ProtectedPermissions"/>
+    <!-- send and receive SMS -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_SMS"/>
+    <!-- call back SMS sender -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!-- catch incomming call phone number -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- read contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- access GPS location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sos_app_icon5"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".utils.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".send.SOSActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+        <activity
+            android:name=".receive.AlarmActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name=".receive.ManageAnswersActivity"
+            android:theme="@style/TranslucentTheme"/>
+
+        <!-- Broadcast Receiver that will process AppWidget updates -->
+        <receiver
+            android:name=".send.SOSWidgetProvider"
+            android:icon="@drawable/sos"
+            android:label="@string/widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget"/>
+        </receiver>
+
+        <!-- Broadcast Receiver that will process incomming SMS -->
+        <receiver android:name=".receive.IncomingSms">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Broadcast Receiver for pending intents -->
+        <receiver android:name=".utils.AlarmReceiver"/>
+
+        <!-- Broadcast Receiver that will process incomming calls (to suspend/restart answer timeout) -->
+        <receiver android:name=".receive.PhoneCall">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+
+        <provider
+            android:name=".database.DataProvider"
+            android:authorities="com.bluegecko.sos.dataprovider"
+            android:enabled="true"
+            android:exported="false">
+        </provider>
+
+        <activity android:name=".info.Info4Activity">
+        </activity>
+    </application>
+
+</manifest>
