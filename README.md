@@ -28,5 +28,7 @@ En tant que destinataire d'une demande d'aide:
      -- 2 boutons pour indiquer à l'émetteur si vous pouvez l'aider ou non.
 
 ![_message_](https://cloud.githubusercontent.com/assets/19465756/23761808/548d9790-04f4-11e7-88d8-f82603d5af8d.png)
+![_answer_](https://cloud.githubusercontent.com/assets/19465756/23761878/a27bad34-04f4-11e7-8651-2f877ad22c6e.png)
+
 ---
 Remarque: cette application ne collecte ni ne transmets aucune information personnelle.
