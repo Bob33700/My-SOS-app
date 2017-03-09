@@ -1,6 +1,6 @@
 # My-SOS-app
 This small project to test GitHub
-https://cloud.githubusercontent.com/assets/19465756/23761403/f72e90f0-04f2-11e7-8851-37485c7c60c0.png
+![alt tag](https://cloud.githubusercontent.com/assets/19465756/23761403/f72e90f0-04f2-11e7-8851-37485c7c60c0.png)
 
 Destiné aux personnes isolées, aux malades, aux personnes âgées, à tous ceux ne se sentent pas en sécurité et qui souhaitent pouvoir prévenir des personnes de confiance, 
 SOS est un widget d''alerte : en 2 clics, envoyez des SMS d'appel à l'aide !
